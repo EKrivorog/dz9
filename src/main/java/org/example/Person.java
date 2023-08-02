@@ -6,16 +6,12 @@ public class Person {
     private int age;
     private Person partner;
 
-    public Person() {
-    }
-
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.partner = null;
     }
-
 
     public String getFirstName() {
         return firstName;
@@ -58,9 +54,12 @@ public class Person {
     }
 
     public void registerPartnership(Person partner) {
-        this.partner = partner;
-        if (this instanceof Woman) {
-            this.lastName = partner.getLastName();
+        if (this.partner == null && partner.getPartner() == null) {
+            this.partner = partner;
+            if (this instanceof Woman) {
+                this.lastName = partner.getLastName();
+            }
+            partner.registerPartnership(this); // Зареєструвати партнерство іншого об'єкта тут
         }
     }
 

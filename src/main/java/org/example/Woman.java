@@ -1,10 +1,8 @@
 package org.example;
 
 public class Woman extends Person {
-
-
-    @Override
-    protected String revertLastName() {
-        return getLastName();
+    public Woman(String firstName, String lastName, int age) {
+        super(firstName, lastName, age);
     }
+
 }

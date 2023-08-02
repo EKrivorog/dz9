@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a756a52d-dba4-489a-a87b-c0bd75538fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Woman.java" afterDir="false" />
+    <list default="true" id="a756a52d-dba4-489a-a87b-c0bd75538fc9" name="Changes" comment="dz done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -78,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1690201987536</updated>
     </task>
+    <task id="LOCAL-00001" summary="dz done">
+      <created>1690202899402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690202899402</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz done" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz done" />
   </component>
 </project>
